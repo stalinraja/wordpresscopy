@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<!-- Mirrored from diegovz.com/en/blog/mvp-better-go-for-a-mup by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Apr 2022 15:56:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+    <!-- Meta UTF8 charset -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+    <meta name="theme-color" content="#de5e91" />
+    <meta name="msapplication-navbutton-color" content="" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="" />
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v18.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>MVP? Better go for a MUP - diegovz</title>
+	<link rel="canonical" href="mvp-better-go-for-a-mup.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="MVP? Better go for a MUP - diegovz" />
+	<meta property="og:description" content="MVP? Better go for a MUP February 8th, 2020 / Design management, Product design Don&#8217;t look for an MVP, look for a MUP It is often sought to develop the Minimum Viable Product (MVP) establishing a series of functionalities that the product must have as a minimum to go on the market, the problem here..." />
+	<meta property="og:url" content="mvp-better-go-for-a-mup.html" />
+	<meta property="og:site_name" content="diegovz" />
+	<meta property="article:published_time" content="2020-02-08T22:05:04+00:00" />
+	<meta property="article:modified_time" content="2021-09-11T08:02:55+00:00" />
+	<meta property="og:image" content="../../wp-content/uploads/2020/02/mvp_mup.png" />
+	<meta property="og:image:width" content="3185" />
+	<meta property="og:image:height" content="2128" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Diegovz" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="5 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://diegovz.com/en/#website","url":"https://diegovz.com/en/","name":"diegovz","description":"¡All my Product Design work!","publisher":{"@id":"https://diegovz.com/en/#/schema/person/79d5649d85dd52a9f01ea08885b9b00b"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://diegovz.com/en/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#primaryimage","inLanguage":"en-US","url":"https://diegovz.com/wp-content/uploads/2020/02/mvp_mup.png","contentUrl":"https://diegovz.com/wp-content/uploads/2020/02/mvp_mup.png","width":3185,"height":2128},{"@type":"WebPage","@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#webpage","url":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup","name":"MVP? Better go for a MUP - diegovz","isPartOf":{"@id":"https://diegovz.com/en/#website"},"primaryImageOfPage":{"@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#primaryimage"},"datePublished":"2020-02-08T22:05:04+00:00","dateModified":"2021-09-11T08:02:55+00:00","breadcrumb":{"@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://diegovz.com/en/blog/mvp-better-go-for-a-mup"]}]},{"@type":"BreadcrumbList","@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://diegovz.com/en/"},{"@type":"ListItem","position":2,"name":"MVP? Better go for a MUP"}]},{"@type":"Article","@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#article","isPartOf":{"@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#webpage"},"author":{"@id":"https://diegovz.com/en/#/schema/person/79d5649d85dd52a9f01ea08885b9b00b"},"headline":"MVP? Better go for a MUP","datePublished":"2020-02-08T22:05:04+00:00","dateModified":"2021-09-11T08:02:55+00:00","mainEntityOfPage":{"@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#webpage"},"wordCount":729,"publisher":{"@id":"https://diegovz.com/en/#/schema/person/79d5649d85dd52a9f01ea08885b9b00b"},"image":{"@id":"https://diegovz.com/en/blog/mvp-better-go-for-a-mup#primaryimage"},"thumbnailUrl":"https://diegovz.com/wp-content/uploads/2020/02/mvp_mup.png","articleSection":["Design management","Product design"],"inLanguage":"en-US"},{"@type":["Person","Organization"],"@id":"https://diegovz.com/en/#/schema/person/79d5649d85dd52a9f01ea08885b9b00b","name":"Diegovz","image":{"@type":"ImageObject","@id":"https://diegovz.com/en/#personlogo","inLanguage":"en-US","url":"https://diegovz.com/wp-content/uploads/2020/02/yo.jpg","contentUrl":"https://diegovz.com/wp-content/uploads/2020/02/yo.jpg","width":1784,"height":1824,"caption":"Diegovz"},"logo":{"@id":"https://diegovz.com/en/#personlogo"},"description":"Director of Product Design at Rappi. Since 2011 designing things.","sameAs":["https://diegovz.com"],"url":"https://diegovz.com/en/author/wp-admin-diego"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="diegovz &raquo; Feed" href="../feed" />
+<link rel="alternate" type="application/rss+xml" title="diegovz &raquo; Comments Feed" href="../comments/feed.html" />
+<link rel="alternate" type="application/rss+xml" title="diegovz &raquo; MVP? Better go for a MUP Comments Feed" href="mvp-better-go-for-a-mup/feed" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/diegovz.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.9.3"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='pa-frontend-css'  href='../../wp-content/uploads/premium-addons-elementor/pa-frontend-c6930a31f.min2d10.css?ver=1650902086' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='../../wp-includes/css/dist/block-library/style.min7404.css?ver=5.9.3' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel='stylesheet' id='three-preview-css'  href='../../wp-content/plugins/3r-elementor-timeline-widget/assets/css/style7404.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='../../wp-content/plugins/contact-form-7/includes/css/styles5406.css?ver=5.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='juiz_sps_styles-css'  href='../../wp-content/plugins/juiz-social-post-sharer/skins/8/style.min6b25.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='../../wp-content/plugins/revslider/public/assets/css/rs60192.css?ver=6.2.9' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='elementor-icons-css'  href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min7816.css?ver=5.15.0' type='text/css' media='all' />
+<style id='elementor-icons-inline-css' type='text/css'>
+
+		.elementor-add-new-section .elementor-add-templately-promo-button{
+            background-color: #5d4fff;
+            background-image: url(https://diegovz.com/wp-content/plugins/essential-addons-for-elementor-lite/assets/admin/images/templately/logo-icon.svg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin-left: 5px;
+            position: relative;
+            bottom: 5px;
+        }
+</style>
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='../../wp-content/plugins/elementor/assets/css/frontend-legacy.min5aed.css?ver=3.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='../../wp-content/plugins/elementor/assets/css/frontend.min5aed.css?ver=3.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-18-css'  href='../../wp-content/uploads/elementor/css/post-18ce7d.css?ver=1649887601' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-custom-css'  href='../../wp-content/plugins/wavo-elementor-addons/assets/front/css/custom7404.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-5756-css'  href='../../wp-content/uploads/elementor/css/post-5756a02c.css?ver=1649945862' type='text/css' media='all' />
+<link rel='stylesheet' id='b89d7112d-css'  href='../../wp-content/uploads/essential-addons-elementor/b89d7112d.min2d10.css?ver=1650902086' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-child-style-css'  href='../../wp-content/themes/wavo-child/style4bf4.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='../../wp-content/themes/wavo/js/plugins/bootstrap/bootstrap.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='animate-css'  href='../../wp-content/themes/wavo/css/plugins/animate.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ionicons-css'  href='../../wp-content/themes/wavo/css/plugins/ionicons.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-all-css'  href='../../wp-content/themes/wavo/css/plugins/fontawesome-all.min5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='helper-css'  href='../../wp-content/themes/wavo/css/plugins/helper5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='hamburgers-css'  href='../../wp-content/themes/wavo/css/plugins/hamburgers5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='all-cursors-css'  href='../../wp-content/themes/wavo/js/plugins/cursor/all-cursors5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-style-css'  href='../../wp-content/themes/wavo/css/style5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-framework-style-css'  href='../../wp-content/themes/wavo/css/framework-style5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-update-css'  href='../../wp-content/themes/wavo/css/update5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wavo-fonts-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C600%2C700%7CUbuntu%3A400%2C500%2C700%7CPoppins%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7CRoboto%2BMono%3A400%2C700&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-9974-css'  href='../../wp-content/uploads/elementor/css/post-9974c0f0.css?ver=1649887602' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-text-animations-css-css'  href='../../wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.mind85d.css?ver=1.3.41' type='text/css' media='all' />
+<link rel='stylesheet' id='wpr-addons-css-css'  href='../../wp-content/plugins/royal-elementor-addons/assets/css/frontend.mind85d.css?ver=1.3.41' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css'  href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.mind87f.css?ver=4.9.9' type='text/css' media='all' />
+<style id='wavo-custom-style-inline-css' type='text/css'>
+[class*=" elementor-kit-"] p.elementor-heading-title{
+            line-height: inherit;
+        }div#nt-preloader {background-color: #0a0a0a;overflow: hidden;background-repeat: no-repeat;background-position: center center;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 10000;}.loader04 {width: 56px;height: 56px;border: 2px solid rgba(222, 94, 145, 0.5);border-radius: 50%;position: relative;animation: loader-rotate 1s ease-in-out infinite;top: 50%;margin: -28px auto 0; }.loader04::after {content: "";width: 10px;height: 10px;border-radius: 50%;background: #de5e91;position: absolute;top: -6px;left: 50%;margin-left: -5px; }@keyframes loader-rotate {0% {transform: rotate(0); }100% {transform: rotate(360deg); } }.lazyloading {
+      background-image: url(../../wp-content/themes/wavo/images/loader.gif);
+    }.nt-404 .call-action:before {
+          background-image: url(../../wp-content/themes/wavo/images/pattern-bg.gif);
+          background-repeat: repeat;
+          opacity: .04;
+        }.nt-404 .call-action:before {
+          opacity: 0.04;
+        }.topnav .menu-icon .text:after {
+            content: "Cerrar";width: max-content;min-width: 70px;
+        }.progress-wrap {
+            -webkit-box-shadow: inset 0 0 0 2px rgba(130,130,130,0.2);
+            box-shadow: inset 0 0 0 2px rgba(130,130,130,0.2);
+        }.progress-wrap svg.progress-circle path {
+            stroke: #de5e91;
+        }.progress-wrap::after {
+            color: #bdbdbd;
+        }:root {
+			--color-secondary: #de5e91;
+		}
+		.nt-blog .controls .swiper-pagination-fraction span,.nav--xusni .nav__item-title{
+		color:#de5e91;
+		}
+		.services_icon.icon svg path[stroke="#75DAB4"]{
+			stroke:#de5e91;
+		}
+		.agency .img .icon svg path[stroke="#75DAB4"]{
+			stroke:#de5e91;
+		}
+		.agency .img .exp h6:after,.tagcloud a:hover,.nav--xusni .swiper-slide-thumb-active::after {
+    		background: #de5e91;
+		}.hamenu {
+			-webkit-transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
+			transition: all 0.5s cubic-bezier(1, 0, 0.55, 1);
+		}.hamenu .menu-links .main-menu > li {
+			-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+		}.hamenu .menu-links .main-menu .sub-menu {
+			-webkit-transition-delay: 0.2s;
+			transition-delay: 0.2s;
+		}
+</style>
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CArapey%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css'  href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.minaf6c.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/revslider/public/assets/js/rbtools.min52c7.js?ver=6.0.5' id='tp-tools-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/revslider/public/assets/js/rs6.min0192.js?ver=6.2.9' id='revmin-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/wow/wow.min5152.js?ver=1.0' id='wow-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://diegovz.com/wp-content/themes/wavo/js/modernizr.min.js?ver=1,0' id='modernizr-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://diegovz.com/wp-content/themes/wavo/js/respond.min.js?ver=1.0' id='respond-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://diegovz.com/wp-content/themes/wavo/js/html5shiv.min.js?ver=1.0' id='html5shiv-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://diegovz.com/wp-json/" /><link rel="alternate" type="application/json" href="https://diegovz.com/wp-json/wp/v2/posts/5756" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://diegovz.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://diegovz.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.9.3" />
+<link rel='shortlink' href='https://diegovz.com/?p=5756' />
+<link rel="alternate" type="application/json+oembed" href="https://diegovz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdiegovz.com%2Fen%2Fblog%2Fmvp-better-go-for-a-mup" />
+<link rel="alternate" type="text/xml+oembed" href="https://diegovz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdiegovz.com%2Fen%2Fblog%2Fmvp-better-go-for-a-mup&amp;format=xml" />
+<meta name="framework" content="Redux 4.1.28" />				<style type="text/css">
+					@font-face {font-family: "Rappi";font-display: auto;font-fallback: ;font-weight: 400;src: url(https://diegovz.com/wp-content/uploads/2021/01/rappi.otf) format('OpenType');} @font-face {font-family: "Jornada";font-display: auto;font-fallback: ;font-weight: 900;src: url(https://diegovz.com/wp-content/uploads/2021/07/JornadaSans-Heavy.otf) format('OpenType');} @font-face {font-family: "Jornada";font-display: auto;font-fallback: ;font-weight: 700;src: url(https://diegovz.com/wp-content/uploads/2021/07/JornadaSans-Bold.otf) format('OpenType');}				</style>
+				
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','../../../www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-207039335-1', 'auto');
+			ga('require', 'linkid');
+			ga('send', 'pageview');
+		</script>
+
+	
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2189363,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><meta name="generator" content="Powered by Slider Revolution 6.2.9 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<link rel="icon" href="../../wp-content/uploads/2021/07/cropped-favico-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="../../wp-content/uploads/2021/07/cropped-favico-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="../../wp-content/uploads/2021/07/cropped-favico-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://diegovz.com/wp-content/uploads/2021/07/cropped-favico-270x270.jpg" />
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}				
+					if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+					document.getElementById(e.c).height = newh+"px";
+					window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.elementor-icon svg {
+    width: inherit;
+}
+
+
+.call-action .content h6 span {
+    color: inherit;
+}
+
+
+.hamenu .menu-links .main-menu > li .link img {
+    display: inline-block;
+ }
+.hamenu .cont-info .item:last-of-type {
+    width: max-content !important;
+}		</style>
+		<style id="wavo-dynamic-css" title="dynamic-css" class="redux-options-output">.cursor1::after, .cursor-inner, .cursor-inner.cursor-hover{background-color:rgba(255,255,255,0.5);}.cursor1{width:15px;}.progress-wrap{right:30px;bottom:30px;}.has-custom--scrollbar::-webkit-scrollbar{width:8px;}#nt-logo img{height:30px;}#nt-logo.has-mobile-logo img.mobile-logo{height:50px;}.hamenu .menu-links .link, .hamenu .menu-links .sub-link{font-display:swap;}.hamenu .menu-links .main-menu .sub-menu li .sub-link.back{font-display:swap;}.hamenu .cont-info .item, .hamenu .cont-info .item p{font-display:swap;}.hamenu .cont-info .item, .hamenu .cont-info .item p{font-display:swap;}#nt-index .page-header .text-bg{font-display:swap;}#nt-index .page-header .text-bg{top:60px;}#nt-index .nt-hero-title{font-display:swap;}#nt-index .nt-hero-desc{font-display:swap;}#nt-single .page-header h2{font-display:swap;}#nt-single .cont .info p,#nt-single .cont .info a{font-display:swap;}#nt-archive .nt-hero-title{font-display:swap;}#nt-archive .nt-hero-desc{font-display:swap;}#nt-404 .content h6{color:#de5e91;font-display:swap;}#nt-404 .content h2{font-display:swap;}#nt-404 .content p{font-display:swap;}#nt-search .nt-hero-title{font-display:swap;}#nt-search .nt-hero-desc{font-display:swap;}</style><style id="wpr_lightbox_styles">
+	            .lg-backdrop {
+	                background-color: rgba(0,0,0,0.6) !important;
+	            }
+	            .lg-toolbar,
+	            .lg-dropdown {
+	                background-color: rgba(0,0,0,0.8) !important;
+	            }
+				.lg-dropdown:after {
+					border-bottom-color: rgba(0,0,0,0.8) !important;
+				}
+	            .lg-sub-html {
+	                background-color: rgba(0,0,0,0.8) !important;
+	            }
+	            .lg-thumb-outer,
+	            .lg-progress-bar {
+	                background-color: #444444 !important;
+	            }
+	            .lg-progress {
+	                background-color: #a90707 !important;
+	            }
+	            .lg-icon {
+	            	color: #efefef !important;
+	            	font-size: 20px !important;
+	            }
+	            .lg-icon.lg-toogle-thumb {
+	            	font-size: 24px !important;
+	            }
+	            .lg-icon:hover,
+	            .lg-dropdown-text:hover {
+	            	color: #ffffff !important;
+	            }
+	            .lg-sub-html,
+	            .lg-dropdown-text {
+	            	color: #efefef !important;
+	            	font-size: 14px !important;
+	            }
+	            #lg-counter {
+	            	color: #efefef !important;
+	            	font-size: 14px !important;
+	            }
+	            .lg-prev,
+	            .lg-next {
+	            	font-size: 35px !important;
+	            }
+
+	            /* Defaults */
+				.lg-icon {
+				  background-color: transparent !important;
+				}
+
+				#lg-counter {
+				  opacity: 0.9;
+				}
+
+				.lg-thumb-outer {
+				  padding: 0 10px;
+				}
+
+				.lg-thumb-item {
+				  border-radius: 0 !important;
+				  border: none !important;
+				  opacity: 0.5;
+				}
+
+				.lg-thumb-item.active {
+					opacity: 1;
+				}
+	         </style>
+</head>
+
+<!-- BODY START -->
+<body class="post-template-default single single-post postid-5756 single-format-standard  Wavo Child nt-version-1.0.3 preloader-on light split-animation-enabled use-elementor-style-kit nt-desktop elementor-default elementor-kit-18 elementor-page elementor-page-5756">
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><main id="main-scrollbar" data-wavo-scrollbar='{"time":1000,"step":100,"delta":50,"max":3}'>
+                <div id="nt-preloader" class="preloader">
+                    <div class="loader04"></div>
+                                    </div>
+                
+                <div id="navi" class="topnav ">
+                    <div class="container-fluid">
+
+                        <div class="logo">
+                            
+            <a href="../index.html" id="nt-logo" class="header_logo logo-type-img has-mobile-logo">
+
+                
+                    <img  class="main-logo" src="https://diegovz.com/wp-content/uploads/2020/11/logotipo_texto.svg" alt="diegovz" />
+                                                                <img class="mobile-logo" src="https://diegovz.com/wp-content/uploads/2020/11/logotipo_texto.svg" alt="diegovz" />
+                    
+                            </a>
+                                    </div>
+
+                        
+                            <div class="menu-icon">
+                                <span class="icon"><i></i><i></i></span>
+                                                                    <span class="text" data-splitting>
+                                        <span class="word" data-word="Menu">Menu</span>
+                                    </span>
+                                                            </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="hamenu" id="hamenu">
+                    <div class="container">
+                        <div class="row">
+                                                        <div class="col-lg-9 col-md-8">
+                                                            <div class="menu-links">
+                                    <ul class="main-menu">
+                                        <li id="menu-item-10878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-10878"><div class="o-hidden"><a  href="../index.html" class="link"><span class="nm"></span>Home </a></div></li>
+<li id="menu-item-7598" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7598"><div class="o-hidden"><a  href="../blog.html" class="link"><span class="nm"></span>Blog </a></div></li>
+<li id="menu-item-5053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5053"><div class="o-hidden"><a  href="../about-me.html" class="link"><span class="nm"></span>About me </a></div></li>
+<li id="menu-item-15110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15110"><div class="o-hidden"><a  href="../resume.html" class="link"><span class="nm"></span>Resume </a></div></li>
+<li id="menu-item-5056-en" class="lang-item lang-item-39 lang-item-en current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-5056-en"><div class="o-hidden"><a  href="mvp-better-go-for-a-mup.html" class="link"><span class="nm"></span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAmVBMVEViZsViZMJiYrf9gnL8eWrlYkjgYkjZYkj8/PujwPybvPz4+PetraBEgfo+fvo3efkydfkqcvj8Y2T8UlL8Q0P8MzP9k4Hz8/Lu7u4DdPj9/VrKysI9fPoDc/EAZ7z7IiLHYkjp6ekCcOTk5OIASbfY/v21takAJrT5Dg6sYkjc3Nn94t2RkYD+y8KeYkjs/v7l5fz0dF22YkjWvcOLAAAAgElEQVR4AR2KNULFQBgGZ5J13KGGKvc/Cw1uPe62eb9+Jr1EUBFHSgxxjP2Eca6AfUSfVlUfBvm1Ui1bqafctqMndNkXpb01h5TLx4b6TIXgwOCHfjv+/Pz+5vPRw7txGWT2h6yO0/GaYltIp5PT1dEpLNPL/SdWjYjAAZtvRPgHJX4Xio+DSrkAAAAASUVORK5CYII=" alt="English" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">English</span> </a></div></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                                                            <div class="col-lg-3 col-md-4">
+                                    <div class="cont-info">
+                                        <div class="item">
+
+Email :
+
+</div>
+<div class="item">
+
+diegovillarroelzaballos@gmail.com
+
+</div>                                                                            </div>
+                                </div>
+                            
+                        </div>
+                    </div>
+                                    </div>
+                            <div class="progress-wrap">
+                <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+                </svg>
+            </div>
+            		<div data-elementor-type="wp-post" data-elementor-id="5756" class="elementor elementor-5756">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<div class="wavo-column-gap-default elementor-section elementor-top-section elementor-element elementor-element-a1532b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="a1532b4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-311d2ef" data-id="311d2ef" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-3576184 elementor-widget elementor-widget-wavo-post-data" data-id="3576184" data-element_type="widget" data-widget_type="wavo-post-data.default">
+				<div class="elementor-widget-container">
+			<h1 class="post--data post--title post--id-5756">MVP? Better go for a MUP</h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4946743 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="4946743" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">February 8th, 2020 / Design management, Product design</p>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</div>
+				<div class="wavo-column-gap-default elementor-section elementor-top-section elementor-element elementor-element-2987fc48 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="2987fc48" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1afed8b6" data-id="1afed8b6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="wavo-column-gap-default elementor-section elementor-inner-section elementor-element elementor-element-36d30361 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="36d30361" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-13b4fcdd" data-id="13b4fcdd" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}" class="elementor-element elementor-element-5f4f21fb wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="5f4f21fb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Don't look for an MVP, look for a MUP</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-54003dee wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="54003dee" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">It is often sought to develop the Minimum Viable Product (MVP) establishing a series of functionalities that the product must have as a minimum to go on the market, the problem here is: <b> What use are these functionalities if the user is not capable of use them? </b> So we must change the focus and look for the <b> Minimum Usable Product (MUP) </b>.</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8a0af09 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="8a0af09" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Just because a product is viable from a business point of view does not mean that it is so for the user. No person who is part of the development of the project can act as a "voice of the user" without proper prior research. </br> </br>
+
+Many times we make the mistake of using <b> our own assumptions </b> to make design decisions, having the <b> false feeling </b> that we too are users and therefore our opinion is valid for it. While it is true that the vast majority of us are "users" in other products, when it comes to the one we are developing the following problem arises:</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-7330a7a wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="7330a7a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><i> "You know too much" </i></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-1ac9a05 elementor-widget elementor-widget-spacer" data-id="1ac9a05" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-af431c7 elementor-widget elementor-widget-image" data-id="af431c7" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="676" height="262" src="https://diegovz.com/wp-content/uploads/2020/02/sabes_demasiado.svg" class="attachment-large size-large" alt="" loading="lazy" />														</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-8ad6afc elementor-widget elementor-widget-spacer" data-id="8ad6afc" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-06a3bd4 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="06a3bd4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">Whether you are a developer, director of architecture, product manager, designer, etc. You know too much about the product <b> basically because you are developing it </b>.
+
+Now you might ask yourself: <i> "What difference does it make that I know too much ...?" </i>. Here is an example.</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fe0421e elementor-widget elementor-widget-spacer" data-id="fe0421e" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}" class="elementor-element elementor-element-5522ac3 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="5522ac3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">What you suppose...</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a1a29ed wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="a1a29ed" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">
+
+You are developing the flow to order food in your delivery App and one of the functionalities of your MVP is to be able to eliminate products that you have previously added, so you suppose that the logical thing to do would be:</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e40ebc7 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="e40ebc7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">1. Go to the order summary. </br>
+2. Touch the "Update Cart" button. </br>
+3. Delete the product you want. </br>
+4. Save the changes.
+</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-2408d597 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="2408d597" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><i>*Just Eat real flow</i></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fa81828 elementor-widget elementor-widget-image" data-id="fa81828" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="1284" height="432" src="https://diegovz.com/wp-content/uploads/2020/02/flujoss.svg" class="attachment-large size-large" alt="" loading="lazy" />														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</div>
+				<div class="elementor-element elementor-element-75e3143 elementor-widget elementor-widget-spacer" data-id="75e3143" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}" class="elementor-element elementor-element-2e3b2c2 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="2e3b2c2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">The reality of the user...</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-adef5c9 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="adef5c9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">
+If you haven't researched your users, unfortunately you cannot assume that the above flow is correct. In fact, you could ask yourself the following questions to see that you are indeed missing information: </p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-3613eb3 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="3613eb3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default"><i> "Do you know if this flow is the most efficient?" </i> </br>
+
+<i> "Will your users be able to perform the task?" </i> </br>
+
+
+<i> "Do you know if the flow conforms to the mental model of your users?" </i> </br>
+
+<i> "Is cognitive friction being generated at any point?" </i> </br></p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-975291d elementor-widget elementor-widget-image" data-id="975291d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="1222" height="299" src="https://diegovz.com/wp-content/uploads/2020/02/pruebas_usuario.svg" class="attachment-large size-large" alt="" loading="lazy" />														</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-1a97365 elementor-widget elementor-widget-spacer" data-id="1a97365" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-2f8b335 wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="2f8b335" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<p class="elementor-heading-title elementor-size-default">
+The answers will be found by conducting a correct user research. In this way we can develop a <b> MUP (Minimum Usable Product) </b> with which we can be sure that the included functionalities will be used effectively and efficiently by users. </p>		</div>
+				</div>
+				<div class="wavo-column-gap-default elementor-section elementor-inner-section elementor-element elementor-element-76c736c elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="76c736c" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9b4557f" data-id="9b4557f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-8b3298c premium-title-icon-row-reverse elementor-widget elementor-widget-premium-addon-title" data-id="8b3298c" data-element_type="widget" data-widget_type="premium-addon-title.default">
+				<div class="elementor-widget-container">
+			
+	<div class="premium-title-container style7">
+		<h5 class="premium-title-header premium-title-style7">
+												<span class="premium-title-style7-stripe-wrap">
+						<span class="premium-title-style7-stripe"></span>
+					</span>
+								<div class="premium-title-style7-inner">
+			
+												<div class="premium-title-icon premium-lottie-animation" data-lottie-url="https://assets9.lottiefiles.com/packages/lf20_r6191vsq.json" data-lottie-loop="true" data-lottie-reverse=""></div>
+							
+																<span class="premium-title-text" >
+				Do you share? 			</span>
+				
+							</div>
+								</h5>
+	</div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-adea5f7 elementor-hidden-phone" data-id="adea5f7" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-24eb340" data-id="24eb340" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-621f0f3 elementor-widget elementor-widget-shortcode" data-id="621f0f3" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode">
+<div class="juiz_sps_links  juiz_sps_counters counters_total juiz_sps_displayed_nowhere" data-post-id="5756">
+<p class="screen-reader-text juiz_sps_maybe_hidden_text">Share the post "MVP? Better go for a MUP"</p>
+
+	<ul class="juiz_sps_links_list"><li style="display:none;" class="juiz_sps_item juiz_sps_link_shareapi"><button type="button" data-api-link="https://diegovz.com/en/blog/mvp-better-go-for-a-mup"  title="Share on your favorite apps" class="juiz_sps_button" data-nobs-key="shareapi"><span class="juiz_sps_icon jsps-shareapi"></span><span class="juiz_sps_network_name">Share…</span></button><script>
+					window.addEventListener("DOMContentLoaded", function(){
+						if ( navigator.share ) {
+							let shareurl = document.location.href;
+							let btns = document.querySelectorAll(".juiz_sps_link_shareapi button:not([data-bound])");
+							const canon = document.querySelector("link[rel=canonical]");
+
+							if (canon !== null) {
+								shareurl = canon.href;
+							}
+
+							btns.forEach(function(el) {
+								el.closest(".juiz_sps_link_shareapi").removeAttribute( "style" );
+								el.setAttribute( "data-bound", "true" );
+								el.addEventListener("click", async () => {
+									try {
+										await navigator.share({
+											title: "MVP? Better go for a MUP",
+											text: "MVP? Better go for a MUP - ",
+											url: shareurl,
+										});
+										console.info("Nobs: Successful share");
+									} catch(err) {
+										console.warn("Nobs: Error sharing", error);
+									}
+								});
+							});
+						}
+					});
+					</script></li><li class="juiz_sps_item juiz_sps_totalcount_item"><span class="juiz_sps_totalcount" title="Total: "><span class="juiz_sps_total_share_text">Shares</span></span></li></ul>
+	<input type="hidden" class="juiz_sps_info_plugin_url" value="https://diegovz.com/wp-content/plugins/juiz-social-post-sharer/" /><input type="hidden" class="juiz_sps_info_permalink" value="https://diegovz.com/en/blog/mvp-better-go-for-a-mup" /><input type="hidden" class="juiz_sps_info_post_id" value="5756" /></div>
+
+</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</div>
+				<div class="wavo-column-gap-default elementor-section elementor-inner-section elementor-element elementor-element-e9a45a2 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="e9a45a2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-57362bb" data-id="57362bb" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-659f6fb elementor-widget elementor-widget-image" data-id="659f6fb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+								<div class="elementor-image">
+												<img width="768" height="785" src="../../wp-content/uploads/2020/02/yo-768x785.jpg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://diegovz.com/wp-content/uploads/2020/02/yo-768x785.jpg 768w, https://diegovz.com/wp-content/uploads/2020/02/yo-293x300.jpg 293w, https://diegovz.com/wp-content/uploads/2020/02/yo-1002x1024.jpg 1002w, https://diegovz.com/wp-content/uploads/2020/02/yo-1502x1536.jpg 1502w, https://diegovz.com/wp-content/uploads/2020/02/yo.jpg 1784w" sizes="(max-width: 768px) 100vw, 768px" />														</div>
+						</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-61f920a" data-id="61f920a" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-a5541b4 elementor-widget elementor-widget-wavo-post-data" data-id="a5541b4" data-element_type="widget" data-widget_type="wavo-post-data.default">
+				<div class="elementor-widget-container">
+			<h5 class="post--data post--author post--id-5756">
+        <a href="../author/wp-admin-diego.html">Diegovz</a>
+
+        </h5>		</div>
+				</div>
+				<div class="elementor-element elementor-element-106717a elementor-widget elementor-widget-wavo-post-data" data-id="106717a" data-element_type="widget" data-widget_type="wavo-post-data.default">
+				<div class="elementor-widget-container">
+			<p class="post--data post--author post--id-5756">Director of Product Design at Rappi.
+
+Since 2011 designing things.</p>		</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1945315" data-id="1945315" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-66b6f4d elementor-shape-square e-grid-align-right e-grid-align-mobile-left elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="66b6f4d" data-element_type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-social-icons-wrapper elementor-grid">
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-cf9e84f" href="https://www.instagram.com/uiuxdiego/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+							<span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-a16fab1" href="https://www.linkedin.com/in/diego-villarroel-zaballos" target="_blank">
+						<span class="elementor-screen-only">Linkedin</span>
+						<i class="fab fa-linkedin"></i>					</a>
+				</span>
+					</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</div>
+				<section class="wavo-column-gap-default elementor-section elementor-top-section elementor-element elementor-element-4224706 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="4224706" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-15f40c6" data-id="15f40c6" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-4469102 elementor-widget elementor-widget-spacer" data-id="4469102" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="wavo-column-gap-default elementor-section elementor-top-section elementor-element elementor-element-f8a68cc elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="f8a68cc" data-element_type="section">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18aa087" data-id="18aa087" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1ae35df elementor-widget elementor-widget-spacer" data-id="1ae35df" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div data-split-settings="{&quot;type&quot;:&quot;chars&quot;,&quot;animation&quot;:&quot;fadeInUp2&quot;}" class="elementor-element elementor-element-3188d66 wavo-headig-split heading-has-split-yes wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="3188d66" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Related posts<span style="color:#DE5E91">.</span></h1>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e774659 elementor-widget elementor-widget-spacer" data-id="e774659" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6c9d437 elementor-grid-eael-col-2 elementor-grid-tablet-eael-col-2 elementor-grid-mobile-eael-col-1 elementor-widget elementor-widget-eael-post-grid" data-id="6c9d437" data-element_type="widget" data-settings="{&quot;eael_post_grid_columns&quot;:&quot;eael-col-2&quot;,&quot;eael_post_grid_columns_tablet&quot;:&quot;eael-col-2&quot;,&quot;eael_post_grid_columns_mobile&quot;:&quot;eael-col-1&quot;}" data-widget_type="eael-post-grid.default">
+				<div class="elementor-widget-container">
+			<div id="eael-post-grid-6c9d437" class="eael-post-grid-container">
+            <div class="eael-post-grid eael-post-appender eael-post-appender-6c9d437 eael-post-grid-style-two" data-layout-mode="masonry"><article class="eael-grid-post eael-post-grid-column" data-id="7843">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="what-product-design-really-is.html"
+                                    title="What Product Design really is">What Product Design really is</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>How many times have you been told that a Product Designer has to be the voice of the user? If so, you've been told half the story...</p><a
+                                        href="what-product-design-really-is.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="June 20, 2021">June 20, 2021</time></span></div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="7746">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="memory-in-ux.html"
+                                    title="Memory in UX">Memory in UX</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>In this article we will analyze the different types of memory that people have and how to design for each of them.</p><a
+                                        href="memory-in-ux.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="June 9, 2021">June 9, 2021</time></span></div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="7048">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="8pt-vs-10pt-grid.html"
+                                    title="8pt vs 10pt Grid">8pt vs 10pt Grid</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>In this post we will analyze the differences between an 8pt and a 10pt Grid, and finally we will see which one we should use.</p><a
+                                        href="8pt-vs-10pt-grid.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="May 27, 2021">May 27, 2021</time></span></div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="6935">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="hicks-law.html"
+                                    title="Hick&#8217;s law">Hick&#8217;s law</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>Hick's Law states that the time required to make a decision is increased by the number of options available.</p><a
+                                        href="hicks-law.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="May 24, 2021">May 24, 2021</time></span></div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="5751">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="mental-models-in-ux.html"
+                                    title="Mental models in UX">Mental models in UX</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>Mental models play an important role in Human-Computer Interaction (HCI) and Interaction Design. They relate to the way a user perceives the world around them and are based on beliefs.</p><a
+                                        href="mental-models-in-ux.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="November 5, 2020">November 5, 2020</time></span></div></div></div>
+        </div>
+    </article><article class="eael-grid-post eael-post-grid-column" data-id="5753">
+        <div class="eael-grid-post-holder">
+            <div class="eael-grid-post-holder-inner"><div class="eael-entry-wrapper"><header class="eael-entry-header"><h2 class="eael-entry-title"><a
+                                    class="eael-grid-post-link"
+                                    href="ux-in-the-org-chart.html"
+                                    title="UX in the org chart">UX in the org chart</a></h2></header><div class="eael-entry-content">
+                                    <div class="eael-grid-post-excerpt"><p>Where to place your UX resources in the organization chart? Below we will see where companies usually place the UX department or person and what is usually the best way for the...</p><a
+                                        href="ux-in-the-org-chart.html"
+                                        class="eael-post-elements-readmore-btn">Leer más</a></div>
+                                </div><div class="eael-entry-meta"><span class="eael-meta-posted-on"><i class="far fa-clock"></i><time datetime="April 17, 2020">April 17, 2020</time></span></div></div></div>
+        </div>
+    </article></div>
+            <div class="clearfix"></div>
+        </div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6fd26bc elementor-widget elementor-widget-spacer" data-id="6fd26bc" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+				<div data-elementor-type="section" data-elementor-id="9974" class="elementor elementor-9974">
+						<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+									<section class="wavo-column-gap-default elementor-section elementor-top-section elementor-element elementor-element-12faa75 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no" data-id="12faa75" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-075f3f2" data-id="075f3f2" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-f64979c elementor-widget elementor-widget-premium-addon-title" data-id="f64979c" data-element_type="widget" data-widget_type="premium-addon-title.default">
+				<div class="elementor-widget-container">
+			
+	<div class="premium-title-container style7">
+		<span class="premium-title-header premium-title-style7">
+												<span class="premium-title-style7-stripe-wrap">
+						<span class="premium-title-style7-stripe"></span>
+					</span>
+								<div class="premium-title-style7-inner">
+			
+			
+																<span class="premium-title-text" >
+				© 2022 No rights reserved. 			</span>
+				
+							</div>
+								</span>
+	</div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6867373" data-id="6867373" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1789bb1 elementor-widget elementor-widget-premium-addon-title" data-id="1789bb1" data-element_type="widget" data-widget_type="premium-addon-title.default">
+				<div class="elementor-widget-container">
+			
+	<div class="premium-title-container style7">
+		<span class="premium-title-header premium-title-style7">
+												<span class="premium-title-style7-stripe-wrap">
+						<span class="premium-title-style7-stripe"></span>
+					</span>
+								<div class="premium-title-style7-inner">
+			
+			
+																<span class="premium-title-text" >
+				Actually, share, steal (like a pro) and get inspiration as much as you want.			</span>
+				
+							</div>
+								</span>
+	</div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-8680c3f" data-id="8680c3f" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-7c5233d premium-title-icon-row-reverse elementor-widget elementor-widget-premium-addon-title" data-id="7c5233d" data-element_type="widget" data-widget_type="premium-addon-title.default">
+				<div class="elementor-widget-container">
+			
+	<div class="premium-title-container style7">
+		<span class="premium-title-header premium-title-style7">
+												<span class="premium-title-style7-stripe-wrap">
+						<span class="premium-title-style7-stripe"></span>
+					</span>
+								<div class="premium-title-style7-inner">
+			
+												<div class="premium-title-icon premium-lottie-animation" data-lottie-url="https://assets6.lottiefiles.com/packages/lf20_91pul0z1.json" data-lottie-loop="true" data-lottie-reverse=""></div>
+							
+																<span class="premium-title-text" >
+				We live in a free world! 			</span>
+				
+							</div>
+								</span>
+	</div>
+
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+									</div>
+			</div>
+					</div>
+		<div id="cursor1" class="cursor cursor1 cursor-type-1 wavo-cursor"></div></main><link rel='stylesheet' id='splitting-css'  href='../../wp-content/themes/wavo/js/plugins/splitting/splitting7404.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='splitting-cells-css'  href='../../wp-content/themes/wavo/js/plugins/splitting/splitting-cells7404.css?ver=5.9.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css'  href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min0e7d.css?ver=5.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='e-animations-css'  href='../../wp-content/plugins/elementor/assets/lib/animations/animations.min5aed.css?ver=3.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='vegas-css'  href='../../wp-content/themes/wavo/js/plugins/vegas/vegas7404.css?ver=5.9.3' type='text/css' media='all' />
+<script type='text/javascript' id='pa-frontend-js-extra'>
+/* <![CDATA[ */
+var PremiumSettings = {"ajaxurl":"https:\/\/diegovz.com\/wp-admin\/admin-ajax.php","nonce":"180f3986ad"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/uploads/premium-addons-elementor/pa-frontend-c6930a31f.min2d10.js?ver=1650902086' id='pa-frontend-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/regenerator-runtime.min3937.js?ver=0.13.9' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/dist/vendor/wp-polyfill.min2c7c.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/diegovz.com\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/contact-form-7/includes/js/index5406.js?ver=5.5.6' id='contact-form-7-js'></script>
+<script type='text/javascript' id='juiz_sps_scripts-js-extra'>
+/* <![CDATA[ */
+var jsps = {"modalLoader":"<img src=\"https:\/\/diegovz.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"0ffe684033","clickCountNonce":"d5a06692d9","getCountersNonce":"23725a9682","ajax_url":"https:\/\/diegovz.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs \u2022 Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+var jsps = {"modalLoader":"<img src=\"https:\/\/diegovz.com\/wp-content\/plugins\/juiz-social-post-sharer\/assets\/img\/loader.svg\" height=\"22\" width=\"22\" alt=\"\">","modalEmailTitle":"Share by email","modalEmailInfo":"Promise, emails are not stored!","modalEmailNonce":"0ffe684033","clickCountNonce":"d5a06692d9","getCountersNonce":"23725a9682","ajax_url":"https:\/\/diegovz.com\/wp-admin\/admin-ajax.php","modalEmailName":"Your name","modalEmailYourEmail":"Your email","modalEmailFriendEmail":"Recipient's email","modalEmailMessage":"Personal message","modalEmailOptional":"optional","modalEmailMsgInfo":"A link to the article is automatically added in your message.","modalEmailSubmit":"Send this article","modalRecipientNb":"1 recipient","modalRecipientNbs":"{number} recipients","modalEmailFooter":"Free service by <a href=\"https:\/\/wordpress.org\/plugins\/juiz-social-post-sharer\/\" target=\"_blank\">Nobs \u2022 Share Buttons<\/a>","modalClose":"Close","modalErrorGeneric":"Sorry. It looks like we've got an error on our side."};
+/* ]]> */
+</script>
+<script defer type='text/javascript' src='../../wp-content/plugins/juiz-social-post-sharer/assets/js/juiz-social-post-sharer.min6b25.js?ver=2.1.4' id='juiz_sps_scripts-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/include-lottie-animation-for-elementor/assets/js/extra/lottie.min7d4c.js?ver=1.7.0' id='jbafe-third-party-editor-js-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/include-lottie-animation-for-elementor/assets/js/main/jbafe_script.min7d4c.js?ver=1.7.0' id='jbafe-editor-js-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles7c45.js?ver=3.0.6' id='wpr-particles-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.minf184.js?ver=1.12.7' id='wpr-jarallax-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min5152.js?ver=1.0' id='wpr-parallax-hover-js'></script>
+<script type='text/javascript' id='b89d7112d-js-extra'>
+/* <![CDATA[ */
+var localize = {"ajaxurl":"https:\/\/diegovz.com\/wp-admin\/admin-ajax.php","nonce":"57bf5d23e1","i18n":{"added":"Added ","compare":"Compare","loading":"Loading..."},"page_permalink":"https:\/\/diegovz.com\/en\/blog\/mvp-better-go-for-a-mup"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/uploads/essential-addons-elementor/b89d7112d.min2d10.js?ver=1650902086' id='b89d7112d-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/cursor/all-cursors5152.js?ver=1.0' id='all-cursors-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/splitting/splitting.min5152.js?ver=1.0' id='splitting-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/swiper/swiper.minfab5.js?ver=6.3.8' id='wavo-swiper-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/scripts5152.js?ver=1.0' id='wavo-main-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/framework-settings5152.js?ver=1.0' id='framework-settings-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min7404.js?ver=5.9.3' id='comment-reply-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/smooth-scroll/smoothScroll.min5152.js?ver=1.0' id='smoothScroll-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/premium-addons-for-elementor/assets/frontend/min-js/lottie.mind87f.js?ver=4.9.9' id='lottie-js-js'></script>
+<script type='text/javascript' id='wpr-addons-js-js-extra'>
+/* <![CDATA[ */
+var WprConfig = {"ajaxurl":"https:\/\/diegovz.com\/wp-admin\/admin-ajax.php","nonce":"602cf27c80"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/royal-elementor-addons/assets/js/frontend.mind85d.js?ver=1.3.41' id='wpr-addons-js-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.mind85d.js?ver=1.3.41' id='wpr-modal-popups-js-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/webpack.runtime.min5aed.js?ver=3.6.4' id='elementor-webpack-runtime-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/frontend-modules.min5aed.js?ver=3.6.4' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/ui/core.min0028.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/share-link/share-link.min5aed.js?ver=3.6.4' id='share-link-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/lib/dialog/dialog.mind227.js?ver=4.9.0' id='elementor-dialog-js'></script>
+<script type='text/javascript' id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.6.4","is_static":false,"experimentalFeatures":{"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/diegovz.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":5756,"title":"MVP%3F%20Better%20go%20for%20a%20MUP%20-%20diegovz","excerpt":"","featuredImage":"https:\/\/diegovz.com\/wp-content\/uploads\/2020\/02\/mvp_mup-1024x684.png"}};
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/frontend.min5aed.js?ver=3.6.4' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/elementor/assets/js/preloaded-modules.min5aed.js?ver=3.6.4' id='preloaded-modules-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/jarallax/jarallax.min7404.js?ver=5.9.3' id='jarallax-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/particles/particles.min7404.js?ver=5.9.3' id='particles-js'></script>
+<script type='text/javascript' src='../../wp-content/themes/wavo/js/plugins/vegas/vegas.min5152.js?ver=1.0' id='vegas-js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/wavo-elementor-addons/assets/front/js/custom-scripts1717.js?ver=2.0.6' id='wavo-addons-custom-scripts-js'></script>
+
+    </body>
+
+<!-- Mirrored from diegovz.com/en/blog/mvp-better-go-for-a-mup by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Apr 2022 15:56:21 GMT -->
+</html>

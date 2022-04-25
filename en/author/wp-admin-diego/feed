@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Diegovz, autor en diegovz</title>
+	<atom:link href="https://diegovz.com/en/author/wp-admin-diego/feed" rel="self" type="application/rss+xml" />
+	<link>https://diegovz.com</link>
+	<description>¡All my Product Design work!</description>
+	<lastBuildDate>Sat, 11 Sep 2021 08:02:55 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9.3</generator>
+
+<image>
+	<url>https://diegovz.com/wp-content/uploads/2021/07/cropped-favico-32x32.jpg</url>
+	<title>Diegovz, autor en diegovz</title>
+	<link>https://diegovz.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>What Product Design really is</title>
+		<link>https://diegovz.com/en/blog/what-product-design-really-is</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Sun, 20 Jun 2021 16:43:26 +0000</pubDate>
+				<category><![CDATA[Design management]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=7843</guid>
+
+					<description><![CDATA[<p>How many times have you been told that a Product Designer has to be the voice of the user? If so, you've been told half the story...</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/what-product-design-really-is">What Product Design really is</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Memory in UX</title>
+		<link>https://diegovz.com/en/blog/memory-in-ux</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Wed, 09 Jun 2021 06:48:36 +0000</pubDate>
+				<category><![CDATA[Product design]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=7746</guid>
+
+					<description><![CDATA[<p>In this article we will analyze the different types of memory that people have and how to design for each of them.</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/memory-in-ux">Memory in UX</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>8pt vs 10pt Grid</title>
+		<link>https://diegovz.com/en/blog/8pt-vs-10pt-grid</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 18:28:24 +0000</pubDate>
+				<category><![CDATA[Product design]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=7048</guid>
+
+					<description><![CDATA[<p>In this post we will analyze the differences between an 8pt and a 10pt Grid, and finally we will see which one we should use.</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/8pt-vs-10pt-grid">8pt vs 10pt Grid</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Hick&#8217;s law</title>
+		<link>https://diegovz.com/en/blog/hicks-law</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 17:42:56 +0000</pubDate>
+				<category><![CDATA[Product design]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=6935</guid>
+
+					<description><![CDATA[<p>Hick's Law states that the time required to make a decision is increased by the number of options available.</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/hicks-law">Hick&#8217;s law</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mental models in UX</title>
+		<link>https://diegovz.com/en/blog/mental-models-in-ux</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Thu, 05 Nov 2020 21:59:49 +0000</pubDate>
+				<category><![CDATA[Product design]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=5751</guid>
+
+					<description><![CDATA[<p>Mental models play an important role in Human-Computer Interaction (HCI) and Interaction Design.<br />
+ They relate to the way a user perceives the world around them and are based on beliefs.</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/mental-models-in-ux">Mental models in UX</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>UX in the org chart</title>
+		<link>https://diegovz.com/en/blog/ux-in-the-org-chart</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Fri, 17 Apr 2020 22:03:44 +0000</pubDate>
+				<category><![CDATA[Design management]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=5753</guid>
+
+					<description><![CDATA[<p>Where to place your UX resources in the organization chart?<br />
+Below we will see where companies usually place the UX department or person and what is usually the best way for the User Experience to have a better and greater impact on the product.</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/ux-in-the-org-chart">UX in the org chart</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>MVP? Better go for a MUP</title>
+		<link>https://diegovz.com/en/blog/mvp-better-go-for-a-mup</link>
+		
+		<dc:creator><![CDATA[Diegovz]]></dc:creator>
+		<pubDate>Sat, 08 Feb 2020 22:05:04 +0000</pubDate>
+				<category><![CDATA[Design management]]></category>
+		<category><![CDATA[Product design]]></category>
+		<guid isPermaLink="false">https://diegovz.com/?p=5756</guid>
+
+					<description><![CDATA[<p>MVP? Better go for a MUP February 8th, 2020 / Design management, Product design Don&#8217;t look for an MVP, look for a MUP It is often sought to develop the Minimum Viable Product (MVP) establishing a series of functionalities that the product must have as a minimum to go on the market, the problem here...</p>
+<p>La entrada <a rel="nofollow" href="https://diegovz.com/en/blog/mvp-better-go-for-a-mup">MVP? Better go for a MUP</a> se publicó primero en <a rel="nofollow" href="https://diegovz.com/en/">diegovz</a>.</p>
+]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
